@@ -2,7 +2,7 @@
 
 A community collection of custom code guardrails for [LiteLLM](https://github.com/BerriAI/litellm). Browse, copy, and deploy guardrails to protect your LLM applications.
 
-🌐 **Live Site:** [guardrails.litellm.ai](https://guardrails.litellm.ai)
+🌐 **Live Site:** [models.litellm.ai/guardrails](https://models.litellm.ai/guardrails)
 
 ## What are Custom Code Guardrails?
 
