@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LiteLLM Guardrails Marketplace</title>
+    <meta name="description" content="A community collection of custom code guardrails for LiteLLM. Copy, customize, and deploy to protect your LLM applications." />
+    <style>
+      :root {
+        --bg-color: #ffffff;
+        --text-color: #1f2937;
+        --muted-color: #6b7280;
+        --border-color: #e5e7eb;
+        --card-bg: #ffffff;
+        --bg-tertiary: #f3f4f6;
+        --code-bg: #f9fafb;
+        --code-text: #1f2937;
+        --litellm-primary: #6366f1;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg-color: #0f0f23;
+          --text-color: #f9fafb;
+          --muted-color: #9ca3af;
+          --border-color: #374151;
+          --card-bg: #1f2937;
+          --bg-tertiary: #374151;
+          --code-bg: #111827;
+          --code-text: #e5e7eb;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
